@@ -58,10 +58,14 @@ body {
 
 .box {
   border: 4px solid black;
+  flex: 0 0 auto;
+  margin: 3rem 0;
+
 }
 
 .box img {
   height: 9rem;
+  margin: 2rem 2rem;
 }
 
 .box h3 {
@@ -72,5 +76,24 @@ body {
 .products .container {
   display: flex;
   justify-content: space-between;
+
+}
+
+
+
+.lochours h3 {
+  background-color: black;
+  height: 
+}
+
+.black {
+  color: black;
+  padding-bottom: 4rem;
+}
+
+footer {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
 
 }
