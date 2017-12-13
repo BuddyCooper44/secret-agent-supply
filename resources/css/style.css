@@ -130,7 +130,7 @@ footer .container {
 }
 
 @media only screen and (max-width: 1024px) {
-  
+
   .gadget {
     width: 47%
   }
@@ -144,6 +144,48 @@ footer .container {
   }
 
   .menu .container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  .header {
+    width: 100%;
+    top: 10.97rem;
+    padding: 1rem 2rem;
+  }
+
+  .header h4 {
+    font-size: 0.77rem;
+  }
+
+  .header h1 {
+    font-size: 1rem;
+  }
+
+  .arrival {
+    height: 15rem;
+  }
+
+  .gadget.glasses {
+    display: none;
+  }
+
+  .gadget, .info {
+    width: 90%;
+  }
+
+  .gadgets, .business-info {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .info {
+    padding-bottom: 0.5rem;
+  }
+
+  footer .container {
     justify-content: center;
   }
 }
