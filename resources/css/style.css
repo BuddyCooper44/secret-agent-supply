@@ -121,3 +121,29 @@ footer .container {
   display: flex;
   align-items: center;
 }
+
+@media only screen and (min-width: 1025px) {
+
+  .container #menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .gadget {
+    width: 47%
+  }
+
+  .gadget.watch {
+    display: none;
+  }
+
+  .container li {
+    display: none;
+  }
+
+  .menu .container {
+    justify-content: center;
+  }
+}
